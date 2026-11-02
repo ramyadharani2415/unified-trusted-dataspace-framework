@@ -1,16 +1,44 @@
-# React + Vite
+# Unified Trusted Dataspace Framework
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A team project for secure cross-border data sharing. This repository contains the **frontend interface**, which I developed.
 
-Currently, two official plugins are available:
+## My Contribution
+- Built the complete frontend interface using **React (Vite), HTML and CSS**
+- Designed the **login** and **registration** pages
+- Worked with backend developers to integrate the Java-based encryption features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React (Vite)
+- HTML5
+- CSS3
+- JavaScript
+- Backend: Java / Spring Boot (built by teammates)
 
-## React Compiler
+## Project Structure
+```
+├── public/
+├── src/
+├── index.html
+├── package.json
+├── vite.config.js
+└── eslint.config.js
+```
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## How to Run
+1. Clone the repo
+   ```
+   git clone https://github.com/ramyadharani2415/unified-trusted-dataspace-framework.git
+   ```
+2. Install dependencies
+   ```
+   npm install
+   ```
+3. Start the app
+   ```
+   npm run dev
+   ```
+4. Open the link shown in the terminal (usually http://localhost:5173)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author
+Ramyadharani G
+[LinkedIn](https://linkedin.com/in/ramyadharani-633b0b2a1) | [GitHub](https://github.com/ramyadharani2415)
